@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   list-style: none;
-=======
->>>>>>> 2f57dabe25f76a3c448a0b85e27f424bde2d4f11
  }
 
 html {
@@ -65,16 +62,6 @@ color: #76E144;
   justify-content:center;
 }
 
-.test{
-<<<<<<< HEAD
-  border:solid 5px;
-=======
-  border:solid purple;
->>>>>>> 2f57dabe25f76a3c448a0b85e27f424bde2d4f11
-  width:100px;
-  height: 100px;
-}
-
 .main__text {
   margin:25px;
   width:40%;
@@ -86,6 +73,20 @@ color: #76E144;
 
 }
 
+.hd1{
+  font-family: 'TAN- Tangkiwood';
+  font-weight: 200;
+  color: #76E144;
+  font-size: 5em;
+}
+
+.hd2{
+  font-family: 'TAN- Tangkiwood';
+  font-weight: 200;
+  color: #76E144;
+  font-size: 3em;
+}
+
 .imgPortrait {
   width:300px;
   height: 462px:
@@ -93,92 +94,45 @@ color: #76E144;
 
 .gallery{
   display:flex;
-<<<<<<< HEAD
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
 }
 
-/* ul{
-  border: solid red;
-  display:flex;
-  flex-wrap:wrap;
-   justify-content: center;
-  height: 70vh;
-} */
-
-.line{
-  border: solid green;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  /*change this number to control line height/images per line*/
-=======
-  /* border:solid black; */
-  width: 100%;
-  /* height: 1000px; */
-}
-
-.line{
-  display:flex;
-  flex-wrap: wrap; 
-  /*change this nukmber to control line height/images per line*/
->>>>>>> 2f57dabe25f76a3c448a0b85e27f424bde2d4f11
-  height: 70vh;
+.gallery img{
+  max-height: 60em;
+  padding:15px;
 }
 
 .img{
-<<<<<<< HEAD
-border: solid white;
-/* flex-wrap: wrap;  */
-padding:10px;
-max-height: 100%;
-object-fit: contain;
+object-fit: cover;
 }
 
-.imgWrap{
-  border: solid purple;
-  max-height: 100%;
-  /* flex:1; */
-  /* better way to control size???? */
-  /* max-width: 500px; */
-  }
-  .imgWrap a{
-    display:block;
-  }
+.projectGallery{
+  /* border: solid white; */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-/* .a {
-  border: solid red;
-  flex-wrap: wrap;  
-   padding:10px;
-  max-height: 100%;
-  width: 100%;
-  object-fit: contain;
-  }   */
+.projectGallery img{
+  max-height: 70em;
+  max-width: 50em;
+  padding: 15px;
+}
 
-  .lineBig{
-    border: solid blue;
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-  /*change this number to control line height/images per line*/
-  height: 85vh;
+  .projectTextColumn{
+    /* border: solid green; */
+    padding: 10em;
+    width: 30vw;
+    height: 100vh;
   }
 
   .projectText{
-    flex-wrap: wrap; 
-    padding:10px;
-    width: 100px;
-    /* margin:25px; */
-    /* width:40%; */
     font-family: 'Helvetica';
     font-weight: 200;
     font-size: 14px;
     line-height: 143.5%;  
     color: #FFFFFF;
   }
-=======
-padding:10px;
-max-height: 100%;
-object-fit: contain;
-}
->>>>>>> 2f57dabe25f76a3c448a0b85e27f424bde2d4f11
+
+
