@@ -25,7 +25,7 @@ body {
   top:0;
   left:0;
   width:100%;
-  height: 132px;
+  height: 18vh;
   background-color:#444AE1;
   padding:0 25px;
   z-index: 2;
@@ -42,17 +42,15 @@ body {
   color: black;
   font-family: 'TAN- Tangkiwood';
   text-decoration: none;
-  font-size: 40px;
-  padding-right: 25px;
+  font-size: 2.5vw;
+  padding-right: 2vw;
 }
 
-/* Kay Wasil */
 .name {
-margin-left: auto;
-font-family: 'TAN- Tangkiwood';
-font-size: 96px;
-font-weight:100;
-color: #76E144;
+  height: 12vh;
+  width:auto;
+  flex-grow: 3;
+  padding-left: 22vw;
 }
 
 .main {
