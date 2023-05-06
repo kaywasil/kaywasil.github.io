@@ -100,6 +100,10 @@ body {
 object-fit: cover;
 }
 
+.imgSq{
+  object-fit: contain;
+}
+
 .projectGallery{
   /* border: solid white; */
   display:flex;
