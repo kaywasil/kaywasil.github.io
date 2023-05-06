@@ -87,11 +87,6 @@ color: #76E144;
   font-size: 3em;
 }
 
-.imgPortrait {
-  width:300px;
-  height: 462px:
-}
-
 .gallery{
   display:flex;
   flex-wrap: wrap;
@@ -124,7 +119,7 @@ object-fit: cover;
     /* border: solid green; */
     padding: 10em;
     width: 30vw;
-    height: 100vh;
+    height: 70em;
   }
 
   .projectText{
