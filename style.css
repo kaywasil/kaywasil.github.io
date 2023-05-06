@@ -85,6 +85,13 @@ body {
   font-size: 3em;
 }
 
+.hd3{
+  font-family: 'TAN- Tangkiwood';
+  font-weight: 200;
+  color: #4075DD;
+  font-size: 3em;
+}
+
 .gallery{
   display:flex;
   flex-wrap: wrap;
@@ -96,8 +103,22 @@ body {
   padding:15px;
 }
 
+.overlay {
+  position: absolute;
+  padding: 0;
+  height:100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+}
+
 .img{
 object-fit: cover;
+}
+
+.gallery img:hover .overlay {
+  opacity:1;
 }
 
 .imgSq{
