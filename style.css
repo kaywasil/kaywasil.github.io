@@ -103,7 +103,7 @@ body {
   padding:15px;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   padding: 0;
   height:100%;
@@ -111,7 +111,7 @@ body {
   opacity: 0;
   transition: .5s ease;
   background-color:black;
-}
+} */
 
 .img{
 object-fit: cover;
@@ -153,4 +153,9 @@ object-fit: cover;
     color: #FFFFFF;
   }
 
+  /* .largep5{
+    padding: 10px;
+    width: 75vw;
+    height:auto;
+  } */
 

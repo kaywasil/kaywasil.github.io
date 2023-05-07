@@ -27,10 +27,6 @@ function preload() {
   bodyFontBold = loadFont("Anonymous Pro-bold.ttf");
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   ;
@@ -322,4 +318,7 @@ function pantBlock() {
   textSize(36);
   textFont(bodyFontBold);
   text("Coming Soon!", 450, 300);
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
