@@ -21,6 +21,7 @@ body {
   height: 100%;
   background-color: rgb(0, 0, 0);
   font-family: Helvetica;
+  position:fixed;
 }
 
  /* navigation bar */
@@ -51,31 +52,31 @@ body {
   padding-right: 2vw;
 }
 
-/* For width smaller than 400px: */
-/* body {
-  .name {
-    height: 5vh;
-    width:auto;
-    flex-grow: 3;
-    padding-left: 22vw;
-  }
-} */
-
-/* For width 400px and smaller: */
-@media only screen and (max-width: 400px) {
-  .name {
-    height: 5vh;
-    width:auto;
-    flex-grow: 3;
-    padding-left: 5vw;
-  }
-}
-
 .name {
   height: 12vh;
   width:auto;
   flex-grow: 3;
   padding-left: 22vw;
+}
+
+/* For width 400px and smaller: */
+@media screen and (max-width: 400px) {
+
+  .name {
+    width:32vh;
+    height: auto;
+    padding-left: 5vw;
+  }
+
+.link,
+.link:active,
+.link:visited,
+.link:link {
+  color: black;
+  font-family: 'TAN- Tangkiwood';
+  text-decoration: none;
+  font-size: 5vw;
+}
 }
 
 .main {
