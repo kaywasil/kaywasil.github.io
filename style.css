@@ -59,8 +59,8 @@ body {
   padding-left: 22vw;
 }
 
-/* For width 400px and smaller: */
-@media screen and (max-width: 400px) {
+/* For width 700px and smaller: */
+@media screen and (max-width: 700px) {
 
   .name {
     width:32vh;
