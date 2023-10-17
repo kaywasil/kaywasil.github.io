@@ -149,6 +149,26 @@ object-fit: cover;
     width: 30vw;
     height: 100vh;
   }
+
+/* more text/documentation gallery layout - for drag archive */
+  .gW{
+    padding-top: 19vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gW img{
+    max-height: 70em;
+    max-width: 45em;
+    padding: 5px;
+  }
+
+  .gWText{
+    padding: 5em;
+    width: 95vw;
+  }
     
     .projectArtColumn{
       /* border: solid white; */
@@ -160,6 +180,15 @@ object-fit: cover;
     font-family: 'Helvetica';
     font-weight: 200;
     font-size: 14px;
+    line-height: 143.5%;  
+    color: #FFFFFF;
+  }
+
+  .captions{
+    font-family: 'Helvetica';
+    font-style:italic;
+    font-weight: 200;
+    font-size: 12px;
     line-height: 143.5%;  
     color: #FFFFFF;
   }
@@ -192,6 +221,11 @@ object-fit: cover;
   padding: 2em;
   width: 80vw;
   height: 25vh;
+}
+
+.textColumnWide{
+  padding: 2em;
+  width: 80vw;
 }
   
   .projectArtColumn{
