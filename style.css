@@ -70,6 +70,10 @@ body {
   width:100%;
   height: 12vh;
 }
+.bumperXL {
+  width:100%;
+  height: 35vh;
+}
 
 .main__text {
   margin:25px;
@@ -122,53 +126,32 @@ body {
   padding:5px;
 }
 
-.imgH{
-object-fit: cover;
+/* hover text */
+
+.overlayWrap {
+  object-fit: cover;
 }
 
-/* .overlayText {
+.overlayText {
   opacity: 0;
   color: #76E144;
+  background-color: black;
   font-family: 'TAN- Tangkiwood';
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
-  top: 35%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  padding: 5px 11px;
   text-align: center;
 }
 
-.overlayText:hover {
+.overlayWrap:hover .overlayText {
   opacity: 1;
   transition: .5s ease;
-} */
-
-
-.imgH:hover {
-  border: 1px solid #76E144;
-  border-radius: 5px;
-  transition: .5s ease;
 }
 
-.imgHSq{
-  object-fit: contain;
-}
-
-.imgHSq:hover {
-  border: 1px solid #76E144;
-  border-radius: 5px;
-  transition: .5s ease;
-}
 
 .imgSq{
   object-fit: contain;
 }
-
-/* get overlay text to appear only on hover
-apply plain image styling to all gallery images */
-
 
 .img{
   object-fit: cover;
@@ -219,11 +202,10 @@ apply plain image styling to all gallery images */
     width: 95vw;
   }
     
-    .projectArtColumn{
-      /* border: solid white; */
-      width: 50vw;
-      height: 55vw;
-      }
+  .projectArtColumn{
+    width: 50vw;
+    height: 55vw;
+   }
 
   .projectText{
     font-family: 'Helvetica';
